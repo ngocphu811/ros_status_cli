@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="ros_status_cli" name="dummy_node" type="dummy_node.py" />
+  <test test-name="ros_status" pkg="ros_status_cli" type="test_ros_status.py" />
+</launch>
